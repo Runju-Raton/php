@@ -4,7 +4,12 @@
             echo "Trait A method";
         }
     }
-    class Number{
+    class ParentNumber{
+        function A(){
+                echo "Parent Class A method";
+        }
+    }
+    class Number extends ParentNumber{
         function A(){
                 echo "Class A method";
         }
