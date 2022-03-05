@@ -9,6 +9,7 @@
         echo "x is equal to y";
     }
     else{
+        //if return -1 
         echo "x is smaller than y";
     }
 ?>
