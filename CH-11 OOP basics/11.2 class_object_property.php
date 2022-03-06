@@ -34,7 +34,7 @@ echo "\n";
 // $h->name="Runju Raton";
 // echo $h->name;
 
- $h->name="Runju Raton";
+ $h->name="Runju Raton"; //class property value assign
 //  echo $h->sayName();
 echo $h->sayHi();
 
