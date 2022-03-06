@@ -25,6 +25,7 @@ $p4->sayHi();
 class Person{
     public $name;
     public $age;
+    // automatic called when object created
     public function __construct($name, $age=0){
         $this->name=$name;
         $this->age=$age;
